@@ -43,6 +43,7 @@ echo ""
 echo "***************************************************"
 echo " making some folders"
 confirm "making bin folder" && mkdir ~/bin
+confirm "making workspace folder" && mkdir ~/workspace
 confirm "making cloud folder" && mkdir ~/cloud
 confirm "making mount folder" && mkdir ~/mount
 confirm "adding sshusers group" && sudo addgroup --gid 901 sshusers
