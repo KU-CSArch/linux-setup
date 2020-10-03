@@ -1,0 +1,8 @@
+alias cp='cp -i'
+alias rm='rm -i'
+alias mv='mv -i'
+alias p='cd ..'
+alias cd..='cd ..'
+alias du='du --max-depth=1'
+alias dus='du --max-depth=1 -h . | sort -h'
+alias ethm='ethminer -C -F http://eth.pool.minergate.com:55751/gunjae.koo@gmail.com --disable-submit-hashrate'

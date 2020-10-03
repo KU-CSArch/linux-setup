@@ -1,0 +1,4 @@
+*.deb
+texlive-local
+config/vim/autoload/
+config/vim/plugged/
